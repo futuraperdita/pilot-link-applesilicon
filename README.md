@@ -1,6 +1,6 @@
 # pilot-link for Apple Silicon
 
-This repository [ports the AUR build MAKEPKG for `pilot-link-git`](https://aur.archlinux.org/packages/pilot-link-git) to allow building of the `pilot-link` suite of Palm OS tools on Apple Silicon Macs. Connect your ancient Palm to your Mac like it's 2001 again!
+This repository [ports the AUR build PKGBUILD for `pilot-link-git`](https://aur.archlinux.org/packages/pilot-link-git) to allow building of the `pilot-link` suite of Palm OS tools on Apple Silicon Macs. Connect your ancient Palm to your Mac like it's 2001 again!
 
 While this will try to pull the latest git from [desrod/pilot-link](https://github.com/desrod/pilot-link), it will fall back to a local archive if the git clone fails. This is to allow for building even if the original source disappears, since these legacy utilities have a tendency to be abandoned and/or vanish.
 
